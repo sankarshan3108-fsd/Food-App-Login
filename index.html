@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="login">
+
+<!-- Floating food icons -->
+<div class="food">🍕</div>
+<div class="food">🍔</div>
+<div class="food">🍟</div>
+<div class="food">🌮</div>
+<div class="food">🍩</div>
+<div class="food">🥗</div>
+
+<div class="card">
+  <form>
+    <h2>Welcome Back 🍕</h2>
+
+    <input type="email" placeholder="Email" required>
+
+    <div class="password-box">
+      <input type="password" id="loginPass" placeholder="Password" required>
+      <span onclick="togglePassword('loginPass')">👁</span>
+    </div>
+
+    <button type="submit">Login</button>
+
+    <p class="or">OR</p>
+
+    <div class="social">
+      <button class="social-btn google">
+        <img src="images/google.svg">
+        <span>Google</span>
+      </button>
+
+      <button class="social-btn facebook">
+        <img src="images/facebook.svg">
+        <span>Facebook</span>
+      </button>
+
+      <button class="social-btn github">
+        <img src="images/github.svg">
+        <span>GitHub</span>
+      </button>
+    </div>
+
+    <p class="switch">
+      New user? <a href="register.html">Create account</a>
+    </p>
+  </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
